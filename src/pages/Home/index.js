@@ -36,9 +36,7 @@ function Home(){
       <div className='loading'>
         <h2>
           Carregando filmes...
-        </h2>
-        <img/>       
-
+        </h2> 
       </div>
     )
 

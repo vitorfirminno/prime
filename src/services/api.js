@@ -1,4 +1,3 @@
-import { getDefaultNormalizer } from '@testing-library/react';
 import axios from 'axios';
 
 //BASE DA URL: https://api.themoviedb.org/3
