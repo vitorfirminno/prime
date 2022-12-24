@@ -4,22 +4,22 @@ header{
     justify-content: space-around;
     width: 100%;
     height: 60px;
-    background-color: black;
+    background-color: rgb(131, 14, 14);
 }
 
 .logo{
     text-decoration: none;
     font-size: 30px;
     cursor: pointer;
-    color: #fff;
+    color:#1168eb;
     font-weight: bold;
 }
 
 .favoritos{
     text-decoration: none;
     cursor: pointer;
-    background-color: #fff;
+    background-color: rgb(238, 128, 55);
     padding: 5px 14px;
-    color: black;
+    color: #1168eb;
     border-radius: 4px;
 }
