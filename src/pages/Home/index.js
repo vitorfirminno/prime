@@ -3,7 +3,10 @@ import api from '../../services/api';
 import { Link } from 'react-router-dom';
 import './home.css';
 import jpg from './315736079_918646959146519_6462023112536740237_n.jpg'
-
+import felipe from './felipe.jpg'
+import midnit from './midnit.jpg'
+import lucca from './lucca.jpg'
+import barone from './barone.jpg'
 // URL DA API: /movie/now_playing?api_key=28fc232cc001c31e8a031f419d0a14ca&language=pt-BR
 
 function Home(){
@@ -56,12 +59,38 @@ function Home(){
               <img src={jpg}/>
               <Link to={`/filme/${"danigay"}`}>Acessar</Link>
             </article>
+
+            <article >
+              <strong>milico</strong>
+              <img src={felipe}/>
+              <Link to={`/filme/${"danigay"}`}>Acessar</Link>
+            </article>
+
+            
+            <article >
+              <strong>negao</strong>
+              <img src={midnit}/>
+              <Link to={`/filme/${"danigay"}`}>Acessar</Link>
+            </article>
+
+            <article >
+              <strong>lucca pobre</strong>
+              <img src={lucca}/>
+              <Link to={`/filme/${"danigay"}`}>Acessar</Link>
+            </article>
+
+            <article >
+              <strong>baroneeeeeeeeeeee</strong>
+              <img src={barone}/>
+              <Link to={`/filme/${"danigay"}`}>Acessar</Link>
+            </article>
           
+
         
       </div>
 
 
-      <div className="lista-filmes">
+      {/* <div className="lista-filmes">
         {filmes.map((filme) => {
           return(
             <article key={filme.id}>
@@ -71,7 +100,7 @@ function Home(){
             </article>
           )
         })}
-      </div>
+      </div> */}
     </div>
   )
 }
