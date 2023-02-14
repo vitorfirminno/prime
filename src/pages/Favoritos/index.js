@@ -26,9 +26,9 @@ function Favoritos(){
 
     return(
         <div className='meus-filmes'>
-            <h1>Meus filmes</h1>
+            <h1>ROLÊS</h1>
 
-            {filmes.length === 0 && <span> Você não possui nenhum filme salvo :( </span>}
+            {filmes.length === 0 && <span> VOCE NAO POSSUI ROLE MARCADO:( </span>}
             <ul>
                 {filmes.map((item)=>{
                     return(
