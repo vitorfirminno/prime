@@ -7,6 +7,8 @@ import felipe from './felipe.jpg'
 import midnit from './midnit.jpg'
 import lucca from './lucca.jpg'
 import barone from './barone.jpg'
+import rafa from './rafa.jpg'
+import silmaria from './silmaria.jpg'
 // URL DA API: /movie/now_playing?api_key=28fc232cc001c31e8a031f419d0a14ca&language=pt-BR
 
 function Home(){
@@ -84,6 +86,19 @@ function Home(){
               <img src={barone}/>
               <Link to={`/filme/${"danigay"}`}>Acessar</Link>
             </article>
+            
+            <article >
+              <strong>rafa</strong>
+              <img src={rafa}/>
+              <Link to={`/filme/${"danigay"}`}>Acessar</Link>
+            </article>
+
+            <article >
+              <strong>silmaria</strong>
+              <img src={silmaria}/>
+              <Link to={`/filme/${"danigay"}`}>Acessar</Link>
+            </article>
+          
           
 
         
