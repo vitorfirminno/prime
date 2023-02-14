@@ -2,6 +2,7 @@ import { useEffect, useState} from 'react';
 import api from '../../services/api';
 import { Link } from 'react-router-dom';
 import './home.css';
+import jpg from './315736079_918646959146519_6462023112536740237_n.jpg'
 
 // URL DA API: /movie/now_playing?api_key=28fc232cc001c31e8a031f419d0a14ca&language=pt-BR
 
@@ -43,7 +44,23 @@ function Home(){
   }
 
   return(
+
+
     <div className="container">
+
+<div className="lista-filmes">
+        
+          
+            <article >
+              <strong>Dani Creu</strong>
+              <img src={jpg}/>
+              <Link to={`/filme/${"danigay"}`}>Acessar</Link>
+            </article>
+          
+        
+      </div>
+
+
       <div className="lista-filmes">
         {filmes.map((filme) => {
           return(
